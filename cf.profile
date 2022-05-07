@@ -12,7 +12,7 @@ http-get {
     client {
         header "Accept" "text/html,application/xhtml+xml,application/xml;q=0.9,*/*l;q=0.8";
         header "Referer" "http://www.google.com";
-        header "Host" "freebuf.tk";  #域名,还没有配置cloudflare的时候这一行注释掉
+        header "Host" "xxx.tk";  #域名,还没有配置cloudflare的时候这一行注释掉
         header "Pragma" "no-cache";
         header "Cache-Control" "no-cache";
         metadata {
@@ -36,7 +36,7 @@ http-post {
     client {
         header "Content-Type" "application/octet-stream";
         header "Referer" "http://www.google.com"; 
-        header "Host" "freebuf.tk";  #域名,还没有配置cloudflare的时候这一行注释掉
+        header "Host" "xxx.tk";  #域名,还没有配置cloudflare的时候这一行注释掉
         header "Pragma" "no-cache";
         header "Cache-Control" "no-cache";
         id {
